@@ -7,13 +7,27 @@ Colors:
 #EDE9E2
 */
 
-ul{
+header{
+	margin: 0;
+	padding: 0;
+	position: fixed;
+}
+.logo{
+	width: 5%;
+	float: left;
+	margin-left: 60px;
+	margin-bottom: 40px;
+
+	}
+.arriba{
 	list-style: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
 	background-color:#E54E79;
 	font-family: 'Roboto', sans-serif;
+	text-align: right;
+	font-size: 25px;
 
 }
 
@@ -25,7 +39,7 @@ ul li a{
 	display: inline-block;
 	color: white;
 	text-align: center;
-	padding: 26px;
+	padding: 20px;
 	text-decoration: none;
 
 }
@@ -62,14 +76,6 @@ que se desplegaran en la pantalla al pasar el cursor*/
 }
 
 
-
-
-
-header{
-	margin: 0;
-	padding: 0;
-	position: fixed;
-}
 
 img{
 width: 100%

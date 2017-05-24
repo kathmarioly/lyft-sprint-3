@@ -89,8 +89,8 @@ width: 100%
 	position: relative;
 	width: 600px;
 	height: 500px;
-	left:  0;
-	top: 0;
+	left:  500px;
+	top: 400px;
 	box-sizing: border-box;
 	font-family: 'Roboto', sans-serif;
 	text-align: left;
@@ -212,19 +212,29 @@ footer{
 }
 
 .autos{
+	width: 1405px;
+	height: 200px;
 	position: relative;
 	display: inline-block;
+
 }
 
-.autos1{
-	width: 100px;
-	height: 50px;
+#autos1{
 	margin-left: 200px;
-	padding:50px;
+}
+/*
+#autos1{
+	border: 2px solid green;
+width: 282px;
+height: 26px;
+margin-left: 216px;
+padding: 2px;
 }
 .autos2{
-	width: 300px;
-	height: 50px;
-	margin-left: 800px;
-	margin-top: 0px;
+	border: 2px solid blue;
+width: 268px;
+height: 28px;
+margin-left: 800px;
+margin-top: 0px;
 }
+*/

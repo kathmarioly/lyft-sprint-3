@@ -91,6 +91,7 @@ width: 100%
 	top: 292px;
 	box-sizing: border-box;
 	font-family: 'Roboto', sans-serif;
+	text-align: left;
 }
 
 .texto{
@@ -103,25 +104,53 @@ width: 100%
 
 .texto h2{
 	position: relative;
-	padding: 20px;
 	color: #75726C;
-	margin: 35px 15px 18px 17px;
 	text-align: left;
+}
+.texto h3{
+	position: relative;
+	color: #cdc4b1;
+	text-align: left;
+	top: 15px;
+	font-size: 15;
+}
+
+input[type=text] {
+
+	background: #EDE9E2;
+  	border: 1px dotted #999;
+  	border-radius: 0;
+  	-webkit-appearance: none;
+  	position: absolute;
 }
 
 #enviar{
-	left: 74px;
 	background: #E56385;
 	color: white;
-	width: 200px;
-    height: 30px;
-    padding: 5px;
+    height: 40px;
+    width: 264px;
 	position: absolute;
    -moz-border-radius:    10px;
    -webkit-border-radius: 10px;
    border-radius:         10px;
-   position: relative;
+   top: 225px;
 }
+
+.texto p{
+	color: #75726C;
+	position: absolute;
+	top: 272px;
+}
+
+
+#rectangulo{
+background-color: #00B2A9;
+width: 100%
+}
+
+
+
+
 
 footer{
 	background-color: #75726C;
@@ -135,4 +164,9 @@ footer{
 	font-family: 'Roboto', sans-serif;
 	}
 
+.icon{
 	
+	padding: 20px;
+	display: inline-block;
+	right: 40px;
+}

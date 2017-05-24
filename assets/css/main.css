@@ -216,11 +216,18 @@ footer{
 	height: 200px;
 	position: relative;
 	display: inline-block;
+	padding: 5px;
 
 }
 
 #autos1{
 	margin-left: 200px;
+	margin-top: 117px;
+}
+
+#autos2{
+	margin-left:  860px;
+	
 }
 /*
 #autos1{

@@ -145,21 +145,67 @@ input[type=text] {
 
 #rectangulo{
 background-color: #00B2A9;
-width: 100%
+width: 2000px;
+height: 1058px;
+position: absolute;
+top: 1178px;
 }
 
+#rectblank p{
+	padding: 20px;
+	margin: 15px 0px  0px 0px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 115px;
+	color: #75726C;
+	text-align: center;
+	background-color: white;
+	width: 2000px;
+	height: 164px;
+	position: relative;
+	top: 810px;
+}
 
+#rectblank2{
 
+	background-color: white;
+	width: 1405px;
+	height: 550px;
+	position: relative;
+	top: 940px;
+	left: 230px;
+}
+
+.autos{
+	width: 100px;
+	top: 204px;
+    left: 207px
+    padding: 20px;
+	display: inline-block;
+	right: 40px;
+
+}
+#start{
+	background: #00B2A9;
+	color: white;
+    height: 70px;
+    width: 1000px;
+	position: absolute;
+   -moz-border-radius:    10px;
+   -webkit-border-radius: 10px;
+   border-radius:         10px;
+   top: 334px;
+   left: 207px
+}
 
 
 footer{
 	background-color: #75726C;
 	color: whitesmoke;
 	position: relative;
-	width: 100%;
-	height: 500px;
+	width: 1960px;
+	height: 400px;
 	padding: 20px;
-	top: 1500px;
+	top: 988px;
 	font-size: 20px;
 	font-family: 'Roboto', sans-serif;
 	}

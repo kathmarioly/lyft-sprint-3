@@ -39,7 +39,7 @@ ul li a{
 	display: inline-block;
 	color: white;
 	text-align: center;
-	padding: 20px;
+	padding: 10px;
 	text-decoration: none;
 
 }
@@ -80,3 +80,59 @@ que se desplegaran en la pantalla al pasar el cursor*/
 img{
 width: 100%
 }
+
+.caja{
+
+	background-color: #EDE9E2;
+	position: relative;
+	width: 600px;
+	height: 500px;
+	left: 794px;
+	top: 292px;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+.texto{
+	padding: 20px;
+	color: #00B2A9;
+	top: 292px;
+	margin: 35px 15px 18px 17px;
+	text-align: left;
+}
+
+.texto h2{
+	position: relative;
+	padding: 20px;
+	color: #75726C;
+	margin: 35px 15px 18px 17px;
+	text-align: left;
+}
+
+#enviar{
+	left: 74px;
+	background: #E56385;
+	color: white;
+	width: 200px;
+    height: 30px;
+    padding: 5px;
+	position: absolute;
+   -moz-border-radius:    10px;
+   -webkit-border-radius: 10px;
+   border-radius:         10px;
+   position: relative;
+}
+
+footer{
+	background-color: #75726C;
+	color: whitesmoke;
+	position: relative;
+	width: 100%;
+	height: 500px;
+	padding: 20px;
+	top: 1500px;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	}
+
+	
